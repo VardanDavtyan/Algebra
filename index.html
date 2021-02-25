@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Algebra</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://static.thenounproject.com/png/24030-200.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="panel">
+            <div class="forms">
+                <h2>Options</h2>
+                <input type="text" id="range" placeholder="Max Range of Numbers">
+                <input type="text" id="formule" placeholder="Formula">
+                <input type="text" id="a_width" placeholder="Area Width">
+                <input type="text" id="a_height" placeholder="Area Height">
+                <div class="inline">
+                    <p>Allow Circles?</p>
+                    <input type="checkbox" id="checkCircle">
+                </div>
+                <input type="text" id="radius" placeholder="Circle Radius">
+                <div class="inline">
+                    <p>Circle Color:</p>
+                    <input type="color" id="c_color">
+                </div>
+                <input type="text" id="l_width" placeholder="Line Width">
+                <div class="inline">
+                    <p>Line Color:</p>
+                    <input type="color" id="l_color">
+                </div>
+            </div>
+        </div>
+        <div id="Area" title="getData()"></div>
+    </div>
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="algebra.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
