@@ -29,6 +29,7 @@ let circleRadiusText = document.getElementById('radius')
 let circleColorInput = document.getElementById('c_color')
 let lineWidthText = document.getElementById('l_width')
 let lineColorInput = document.getElementById('l_color')
+let submitButton = document.getElementById('submit')
 
 window.onload = () => {
     //rangeText.value = maxRange
@@ -40,6 +41,10 @@ window.onload = () => {
     circleColorInput.value = circleColor
     //lineWidthText.value = lineWidth
     lineColorInput.value = lineColor
+    drawGraphic()
+}
+
+submitButton.onclick = () => {
     drawGraphic()
 }
 
